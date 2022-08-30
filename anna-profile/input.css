@@ -8,33 +8,33 @@
   }
 
   h5 {
-    @apply mb-2 text-2xl font-bold text-darkGrayishBlue;
+    @apply mb-0 text-2xl font-bold text-darkGrayishBlue;
   }
 }
 
 .section-container {
-  @apply max-w-6xl mx-auto text-center px-10;
+  @apply mx-auto max-w-6xl px-10 text-center;
 }
 
-.section-content {
-  @apply max-w-3xl mx-auto leading-9 text-center text-grayishBlue;
+.section-paragraph {
+  @apply mx-auto max-w-3xl text-center text-xl leading-9 text-grayishBlue;
 }
 
 .button-container {
-  @apply flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4;
+  @apply flex w-full flex-col justify-center space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4;
 }
 
-body {
+/* body {
   background-image: url("./images/bg-header-desktop.png");
   background-repeat: no-repeat;
   background-size: contain;
-}
+} */
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   body {
     background-image: url("./images/bg-header-mobile.png");
   }
-}
+} */
 
 .ficon:hover {
   filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg)
