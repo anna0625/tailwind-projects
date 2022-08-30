@@ -8,20 +8,35 @@
     <title>Tailwind CSS Sandbox</title>
   </head>
   <body class="bg-blue-200">
-    <div class="container bg-gray-50 h-full p-6 w-screen">
+    <div class="container bg-gray-50 h-full p-6 w-full">
       <h1 class="text-3xl text-blue-800">Tailwind CSS Sandbox</h1>
-      <ul class="mt-6 text-center">
-        <li class="text-lg border border-blue-200 p-2 my-4">
-          <a class="text-blue-500 hover:text-blue-300" href="/fundamentals/"
-            >Fundamentals</a
-          >
-        </li>
-        <li class="text-lg border border-blue-200 p-2 my-4">
-          <a class="text-blue-500 hover:text-blue-300" href="/mini-projects/"
-            >Mini Projects</a
-          >
-        </li>
-      </ul>
+      <div
+        class="flex flex-col items-center justify-center space-y-3 mt-3 md:flex-row md:space-y-0 md:space-x-8 md:mb-24 md:justify-start"
+      >
+        <div class="group">
+          <div class="text-lg border border-blue-200 p-2 my-2">
+            <a class="text-blue-500 hover:text-blue-300" href="/fundamentals/"
+              >Fundamentals</a
+            >
+          </div>
+        </div>
+        <div class="group">
+          <div class="text-lg border border-blue-200 p-2 my-2">
+            <a class="text-blue-500 hover:text-blue-300" href="/mini-projects/"
+              >Mini Projects</a
+            >
+          </div>
+        </div>
+        <div class="group">
+          <div class="text-lg border border-blue-200 p-2 my-2">
+            <a
+              class="text-blue-500 hover:text-blue-300"
+              href="/clipboard-website/"
+              >Clipboard Website</a
+            >
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
